@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, serif;
+    background-color: lightslategray;
+    color: white
+}
+
+form {
+    width: 16em;
+    margin: auto
+}
+
+form > div {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+#wrap {
+    background-color: steelblue;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5em;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 16em;
+    height: 2em;
+    background-color: lightgoldenrodyellow;
+    border-radius: 0.3em;
+    font-size: 1em
+}
+
+button {
+    cursor: pointer;
+    height: 2em;
+    border-radius: 0.5em;
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 1em;
+    width: 16em;
+}
+
+.message {
+
+    font-weight: bold;
+    padding: 0.5em;
+    border-radius: 0.2em;
+}
+
+#error {
+    background-color: lightcoral;
+    color: darkred;
+}
+
+#success {
+    background-color: lightgreen;
+    color: darkgreen;
+}
